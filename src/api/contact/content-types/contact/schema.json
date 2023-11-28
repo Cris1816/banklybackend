@@ -15,7 +15,6 @@
     "name": {
       "type": "string",
       "unique": false,
-      "regex": "^[A-Za-z\\s.'-]+$",
       "required": true,
       "maxLength": 60,
       "minLength": 4
@@ -34,7 +33,6 @@
     },
     "message": {
       "type": "text",
-      "regex": "^[A-Za-z\\s.'-]+$",
       "required": true,
       "unique": false,
       "minLength": 1
